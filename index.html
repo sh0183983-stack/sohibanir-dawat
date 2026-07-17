@@ -53,8 +53,63 @@ section{
 <h2>আসসালামু আলাইকুম</h2>
 <p>আমাদের ওয়েবসাইটে আপনাকে স্বাগতম।</p>
 </section>
+</body>/* ===== Footer ===== */
+footer{
+  margin-top:50px;
+  padding:30px 20px;
+  text-align:center;
+  background:#0f172a;
+  color:#cbd5e1;
+  border-top:1px solid rgba(255,255,255,.08);
+}
 
-</body>
+footer p{
+  margin:8px 0;
+}
+
+.social-links{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:15px;
+}
+
+.social-links a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:18px;
+  transition:.3s;
+}
+
+.social-links a:hover{
+  color:#22c55e;
+}
+
+/* ===== Responsive ===== */
+@media (max-width:768px){
+
+  .hero h1{
+    font-size:2rem;
+  }
+
+  .hero p{
+    font-size:1rem;
+  }
+
+  .card{
+    padding:20px;
+  }
+
+  nav{
+    flex-direction:column;
+    gap:12px;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+}
 </html><section style="background:#ffffff;padding:20px;margin:20px;border-radius:10px;">
 <h2>📖 আজকের সহীহ হাদিস</h2>
 
