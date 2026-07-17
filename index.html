@@ -1,137 +1,112 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>সহীহ বাণীর দাওয়াত</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সহীহ বাণীর দাওয়াত</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
-}
-header{
-    background:#0b6b3a;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-nav{
-    background:#084d2b;
-    text-align:center;
-    padding:10px;
-}
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 10px;
-    font-weight:bold;
-}
-section{
-    padding:20px;
-    text-align:center;
-}
-</style>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<body>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
 
-<header>
-<h1>সহীহ বাণীর দাওয়াত</h1>
-<p>কুরআন ও সহীহ হাদিসের আলোকে জীবন গড়ি</p>
-</header>
+    body{
+      font-family:'Hind Siliguri',sans-serif;
+      background:#f5f7fa;
+      color:#222;
+      line-height:1.7;
+    }
 
-<nav>
-<a href="#">হোম</a>
-<a href="#">হাদিস</a>
-<a href="#">ভিডিও</a>
-<a href="#">যোগাযোগ</a>
-</nav>
+    header{
+      background:linear-gradient(135deg,#0f766e,#15803d);
+      color:#fff;
+      padding:40px 20px;
+      text-align:center;
+      box-shadow:0 5px 15px rgba(0,0,0,.15);
+    }
 
-<section>
-<h2>আসসালামু আলাইকুম</h2>
-<p>আমাদের ওয়েবসাইটে আপনাকে স্বাগতম।</p>
-</section>
-</body>/* ===== Footer ===== */
-footer{
-  margin-top:50px;
-  padding:30px 20px;
-  text-align:center;
-  background:#0f172a;
-  color:#cbd5e1;
-  border-top:1px solid rgba(255,255,255,.08);
-}
+    header h1{
+      font-size:2.2rem;
+      margin-bottom:10px;
+    }
 
-footer p{
-  margin:8px 0;
-}
+    header p{
+      font-size:1.1rem;
+      opacity:.95;
+    }
 
-.social-links{
-  display:flex;
-  justify-content:center;
-  gap:15px;
-  margin-top:15px;
-}
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:30px auto;
+    }
 
-.social-links a{
-  color:#ffffff;
-  text-decoration:none;
-  font-size:18px;
-  transition:.3s;
-}
+    .card{
+      background:#fff;
+      border-radius:18px;
+      padding:25px;
+      margin-bottom:25px;
+      box-shadow:0 8px 25px rgba(0,0,0,.08);
+      transition:.3s;
+    }
 
-.social-links a:hover{
-  color:#22c55e;
-}
+    .card:hover{
+      transform:translateY(-5px);
+    }
 
-/* ===== Responsive ===== */
-@media (max-width:768px){
+    .card h2{
+      color:#0f766e;
+      margin-bottom:15px;
+    }
 
-  .hero h1{
-    font-size:2rem;
-  }
+    img{
+      width:100%;
+      border-radius:12px;
+      margin-top:15px;
+    }<section class="featured">
+  <h2>🌿 আজকের সহীহ হাদিস</h2>
 
-  .hero p{
-    font-size:1rem;
-  }
+  <div class="hadith-card">
+    <p class="arabic">
+      مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ
+    </p>
 
-  .card{
-    padding:20px;
-  }
+    <p class="bangla">
+      "যে ব্যক্তি কোনো ভালো কাজের পথ দেখায়, সে সেই কাজ সম্পাদনকারীর সমপরিমাণ সওয়াব লাভ করে।"
+    </p>
 
-  nav{
-    flex-direction:column;
-    gap:12px;
-  }
-
-  .grid{
-    grid-template-columns:1fr;
-  }
-
-}
-</html><section style="background:#ffffff;padding:20px;margin:20px;border-radius:10px;">
-<h2>📖 আজকের সহীহ হাদিস</h2>
-
-<p>
-রাসূল ﷺ বলেছেন:
-</p>
-
-<blockquote style="background:#f2f2f2;padding:15px;border-left:5px solid green;">
-"তোমাদের মধ্যে সেই ব্যক্তি সর্বোত্তম, যে কুরআন শিক্ষা করে এবং অন্যকে শিক্ষা দেয়।"
-</blockquote>
-
-<p><b>— সহীহ বুখারী</b></p>
+    <p class="source">
+      — সহীহ মুসলিম
+    </p>
+  </div>
 </section>
 
-<section style="background:#eef7ee;padding:20px;margin:20px;border-radius:10px;">
-<h2>🎥 ইসলামিক ভিডিও</h2>
+<section class="about">
+  <h2>📖 সহীহ বাণীর দাওয়াত</h2>
 
-<p>খুব শীঘ্রই এখানে ইসলামিক ভিডিও যুক্ত করা হবে।</p>
-</section>
+  <p>
+    কুরআন ও সহীহ হাদিসের আলোকে বিশুদ্ধ ইসলামী জ্ঞান প্রচারই আমাদের উদ্দেশ্য।
+    এখানে প্রতিদিন নতুন সহীহ হাদিস, ইসলামী শিক্ষা ও দাওয়াতি কনটেন্ট প্রকাশ করা হবে।
+  </p>
+</section><footer>
+  <div class="footer-content">
+    <h3>সহীহ বাণীর দাওয়াত</h3>
 
-<section style="background:#ffffff;padding:20px;margin:20px;border-radius:10px;">
-<h2>📱 আমাদের ফেসবুক পেজ</h2>
+    <p>
+      কুরআন ও সহীহ হাদিসের বিশুদ্ধ দাওয়াত মানুষের কাছে পৌঁছে দেওয়াই আমাদের লক্ষ্য।
+    </p>
 
-<p>ফেসবুক পেজের লিংক এখানে যোগ করা হবে।</p>
-</section>
+    <p class="copyright">
+      © 2026 সহীহ বাণীর দাওয়াত | All Rights Reserved
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
