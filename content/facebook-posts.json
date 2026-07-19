@@ -1,0 +1,20 @@
+[
+  {
+    "id": "niyyah-hadith-001",
+    "status": "draft",
+    "type": "hadith",
+    "category": "ইবাদত",
+    "caption_bn": "সমস্ত আমল নিয়তের উপর নির্ভরশীল। প্রতিটি কাজ আল্লাহর সন্তুষ্টির জন্য করি।",
+    "source": "সহীহ বুখারী ও সহীহ মুসলিম",
+    "scheduled_for": null
+  },
+  {
+    "id": "dawah-quran-001",
+    "status": "draft",
+    "type": "quran",
+    "category": "দাওয়াত",
+    "caption_bn": "প্রজ্ঞা ও উত্তম উপদেশের মাধ্যমে রবের পথে আহ্বান করুন।",
+    "source": "সূরা নাহল ১৬:১২৫",
+    "scheduled_for": null
+  }
+]

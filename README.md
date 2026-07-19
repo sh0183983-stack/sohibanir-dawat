@@ -1,29 +1,41 @@
 # সহীহ বাণীর দাওয়াত
 
-A production-ready static Islamic website for GitHub Pages, built with only HTML, CSS, and JavaScript.
+A production-ready static Islamic website for GitHub Pages, built with HTML, CSS, and JavaScript.
 
 ## Features
 
-- Mobile-first responsive design
-- Islamic green, white, and gold visual theme
+- Modern Bengali-first Islamic design with green, white, and gold branding
+- Mobile-first responsive navigation and cards
+- Home, Hadith, Quran, Articles, Categories, Search, About, Contact, and Privacy Policy pages
 - Dark mode with local preference persistence
-- Search across Hadith, Quran, and article content
-- SEO and Open Graph meta tags
-- Root `index.html` for GitHub Pages
-- Clean asset structure
-- SVG favicon
-- Fast static deployment with no build step
+- Bengali and Arabic typography support
+- Client-side search across Hadith, Quran, and article content
+- SEO and Open Graph meta tags on every page
+- Root `index.html` for GitHub Pages with no build step
+- Prepared `automation/facebook` and `content/facebook-posts.json` structure for future Facebook posting automation
 
-## Pages
+## Project structure
 
-- Home: `index.html`
-- Sahih Hadith: `pages/hadith.html`
-- Quran: `pages/quran.html`
-- Islamic Articles: `pages/articles.html`
-- Categories: `pages/categories.html`
-- About: `pages/about.html`
-- Contact: `pages/contact.html`
-- Privacy Policy: `pages/privacy.html`
+```text
+.
+├── assets/
+│   ├── css/styles.css
+│   ├── img/favicon.svg
+│   └── js/
+│       ├── content.js
+│       └── main.js
+├── automation/facebook/README.md
+├── content/facebook-posts.json
+├── pages/
+│   ├── about.html
+│   ├── articles.html
+│   ├── categories.html
+│   ├── contact.html
+│   ├── hadith.html
+│   ├── privacy.html
+│   └── quran.html
+└── index.html
+```
 
 ## Local Preview
 
@@ -38,3 +50,7 @@ Then visit `http://localhost:8000`.
 ## GitHub Pages
 
 Deploy from the repository root on the current branch. The site requires no package installation or build command.
+
+## Facebook automation roadmap
+
+Future automation should read approved drafts from `content/facebook-posts.json`, publish with the Facebook Graph API, and store credentials only as CI or hosting secrets. See `automation/facebook/README.md`.
