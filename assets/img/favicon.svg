@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="সহীহ বাণীর দাওয়াত favicon">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0f5132"/><stop offset="1" stop-color="#13795b"/></linearGradient></defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <path d="M42.5 12.5a19.5 19.5 0 1 0 0 39A16.5 16.5 0 1 1 42.5 12.5Z" fill="#f6d365"/>
+  <path d="M35.2 21.7l2.8 6 6.5.8-4.8 4.5 1.2 6.4-5.7-3.2-5.7 3.2 1.2-6.4-4.8-4.5 6.5-.8 2.8-6Z" fill="#fffdf5"/>
+</svg>
