@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sohibanir Dawat content item",
+  "type": "object",
+  "required": ["id", "title", "category", "text"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "category": { "type": "string" },
+    "text": { "type": "string" },
+    "arabic": { "type": "string" },
+    "source": { "type": "string" },
+    "featured": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}
